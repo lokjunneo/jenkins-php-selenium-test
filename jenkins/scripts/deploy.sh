@@ -1,8 +1,8 @@
 #!/usr/bin/env sh
 
 set -x
-docker run -d -p 80:80 --name my-apache-php-app -v https://github.com/lokjunneo/jenkins-php-unit-test/
-sleep 1
+docker run -d -p 80:80 --name my-apache-php-app -v https://github.com/lokjunneo/jenkins-php-selenium-test
+
 set +x
 
 echo 'Now...'
